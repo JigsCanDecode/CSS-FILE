@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Color</title>
+</head>
+	<script>
+		function a1()
+		{
+		document.bgColor="yellow"
+		}
+		function a2()
+		{
+		document.bgColor="green"
+		}
+	</script>
+	<style>
+		input[type="button"]
+		{
+		border-radius:10px;
+		background-color:yellow;
+		width:150;
+		height:150;
+		border:2px solid white;
+		}
+		input[type="button"]:hover
+		{
+		border-radius:10px;
+		background-color:yellow;
+		width:130;
+		height:130;
+		border:2px solid white;
+		}
+		input[type="button"].abc
+		{
+		border-radius:10px;
+		background-color:green;
+		width:150;
+		height:150;
+		border:2px solid white;
+		}
+		input[type="button"].abc:hover
+		{
+		border-radius:10px;
+		background-color:green;
+		width:130;
+		height:130;
+		border:2px solid white;
+		}
+	</style>
+
+	<body bgcolor="black">
+		<table>
+		<tr>
+		<td>
+		<input type="button" value="yellow" onclick="a1()">
+		</td>
+		<td>
+		<input type="button" value="green" class="abc" onclick="a2()">
+		</td>
+		</tr>
+			<tr>
+		<td>
+		<input type="button" value="yellow">
+		</td>
+		<td>
+		<input type="button" value="green" class="abc">
+		</td>
+		</tr>
+	</body>
+</html>

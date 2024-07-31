@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title>master</title>
+	</head>
+		<style>
+		html 
+		{
+		  scroll-behavior: smooth;
+		}
+
+		li,a
+		{
+		text-decoration:none;
+		list-style-type:none;
+		background-color:pink;
+		padding:10px 20px;
+		color:red;
+		float:left;
+		}
+
+		#abc
+		{
+		height: 100vh;
+		border:1px solid red;
+		background-color:yellow;
+		}
+
+		#xyz
+		{	
+		background-color:green;
+		height: 100vh;
+		border:1px solid red;
+		}
+		#pqr
+		{	
+		background-color:pink;
+		height: 100vh;
+		border:1px solid red;
+		}
+		#aaa
+		{	
+		background-color:gold;
+		height: 100vh;
+		border:1px solid red;
+		}
+		#bbb
+		{	
+		background-color:maroon;
+		height: 100vh;
+		border:1px solid red;
+		}
+		.fixed
+		{
+		left: 0px;
+ 		bottom: 0px;
+  		z-index: 1;
+		position:fixed;
+		
+		}
+		#one
+		{
+		height:80px;		
+		}
+		h1
+		{
+		text-align:center;
+		}
+		</style>
+
+		<body>
+			<div id="one">
+			<ul>
+				<li><a href="#abc">Home</a></li>
+				<li><a href="#xyz">About Us</a></li>
+				<li><a href="#pqr">Contact Us</a></li>
+				<li><a href="#aaa">Faq</a></li>
+				<li><a href="#bbb">More</a></li>
+			</ul>
+			</div>
+
+			<div id="abc">
+				<h1>Home</h1>
+			</div>
+		
+			<div id="xyz">
+				<h1>About Us</h1>
+			</div>
+	
+			<div id="pqr">
+				<h1>Contact</h1>
+			</div>
+	
+			<div id="aaa">
+				<h1>Faq</h1>
+			</div>
+
+			<div id="bbb">
+				<h1>More</h1>
+			</div>
+		
+			<div class="fixed">
+				<h1><a href="#one">Click</a></h1>
+			</div>
+
+		</body>
+</html>
